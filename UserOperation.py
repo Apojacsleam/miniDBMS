@@ -8,21 +8,13 @@ import csv
 def GetUserData():
     Data = pd.read_pickle('./Data/userdata.user')
     return Data
-
-
 def SaveUserData(Data):
     Data.to_pickle('./Data/userdata.user')
-
-
 def GetGrant():
     Data = pd.read_pickle('./Data/grantdata.user')
     return Data
-
-
 def SaveGrantData(Data):
     Data.to_pickle('./Data/grantdata.user')
-
-
 def login(username, password):
     UserData = GetUserData()
     if username in list(UserData['UserName']):
@@ -34,8 +26,6 @@ def login(username, password):
             return (False, '登录失败！密码错误！')
     else:
         return (False, '登录失败！没有该用户！')
-
-
 def CreateUser(sql):
     matObj = re.search('^create user (.*) with password (.*);$', sql)
     if matObj:
@@ -50,8 +40,6 @@ def CreateUser(sql):
             return (True, '成功添加用户！')
     else:
         return (False, '操作失败！SQL语句不正确！')
-
-
 def tableGrant(tableName, username):
     with open('Data/grants.txt', 'r') as f:
         for line in f.readlines():
@@ -59,16 +47,12 @@ def tableGrant(tableName, username):
                 if line.strip().split('#')[1] == '*' or tableName == line.strip().split('#')[1]:
                     return True
     return False
-
-
 def hasGrant(username, grant):
     with open('Data/grants.txt', 'r') as f:
         for line in f.readlines():
             if grant in line.split('#')[2]:
                 return True
     return False
-
-
 def RevokeGrant(sql, username):
     matchObj = re.match(r'^revoke (.*) on (.*) from (.*);$', sql)
     if matchObj:
@@ -110,8 +94,6 @@ def RevokeGrant(sql, username):
 
     else:
         return (False, 'SQL 解析失败')
-
-
 def GrantUser(sql, username):
     matchObj = re.match(r'^grant (.*) on (.*) to (.*);$', sql)
     if matchObj:
@@ -144,8 +126,6 @@ def GrantUser(sql, username):
                 return (False, '错误！原因：' + e)
     else:
         return (False, '用户授予权限失败')
-
-
 def HelpTable(sql):
     matchObj = re.search(r'^help table (.*);$', sql)
     if matchObj:

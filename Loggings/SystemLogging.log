@@ -3898,3 +3898,8 @@
 [Operation]		drop table students;
 [Result]		Successful operation.成功删除表格：students
 
+[Time]			2023-01-08 17:29:47
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+

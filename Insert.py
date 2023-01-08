@@ -59,7 +59,7 @@ def insertData(username, sql):
             for i in range(len(values)):  # 去除引号
                 values[i] = values[i].lstrip().rstrip()
                 try:
-                    values[i]=int(values[i])
+                    values[i] = int(values[i])
                 except:
                     pass
             keyType = pd.read_pickle('./Data/' + tableName + '.type')

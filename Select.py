@@ -1,6 +1,5 @@
 import re
 import pandas as pd
-
 import UserOperation
 
 
@@ -45,7 +44,7 @@ def infix_evaluator(df, infix_expression: str):
     if infix_expression == "":
         return True
 
-    replace_dict = {'>=': '_geq', '<=': '_leq', '!=': '_neq', '<>': '_neq',}
+    replace_dict = {'>=': '_geq', '<=': '_leq', '!=': '_neq', '<>': '_neq', }
     for rep in replace_dict.items():
         infix_expression = infix_expression.replace(rep[0], rep[1])
 
@@ -53,12 +52,10 @@ def infix_evaluator(df, infix_expression: str):
     pre_dict = {'*': 7, '/': 7, '+': 6, '-': 6, '<': 5, '>': 5, '_geq': 5, '_leq': 5, '=': 4, '_neq': 4, 'AND': 3,
                 'and': 3, 'OR': 2, 'or': 2, '(': 1, ')': 1}
     for operator in pre_dict.keys():
-        if (operator == 'and' or operator == 'AND' or operator == 'OR' or operator == 'or') : continue
+        if (operator == 'and' or operator == 'AND' or operator == 'OR' or operator == 'or'): continue
         infix_expression = infix_expression.split(operator)
         infix_expression = (' ' + operator + ' ').join(infix_expression)
     token_list = infix_expression.split()
-    # print(token_list)
-    # 运算符栈
     operator_stack = []
     # 操作数栈
     operand_stack = []
@@ -114,10 +111,6 @@ def selectData(username, sql):
         if matchObj:
             tableNames = matchObj.group(2).split(',')
             tableNames = [tableName.lstrip().rstrip() for tableName in tableNames]
-            #        for tableName in tableNames:
-            #            if not UserOperation.hasGrant(username, tableName, 'select'):
-            #                print('权限不足')
-            #                return
             values = matchObj.group(1).split(',')
             values = [value.lstrip().rstrip() for value in values]
             print(values)
@@ -129,10 +122,6 @@ def selectData(username, sql):
         if matchObj:
             tableNames = matchObj.group(2).split(',')
             tableNames = [tableName.lstrip().rstrip() for tableName in tableNames]
-            #        for tableName in tableNames:
-            #            if not UserOperation.hasGrant(username, tableName, 'select'):
-            #                print('权限不足')
-            #                return
             values = matchObj.group(1).split(',')
             values = [value.lstrip().rstrip() for value in values]
             conditions = matchObj.group(3)

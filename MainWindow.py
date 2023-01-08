@@ -39,7 +39,8 @@ class Ui_miniDBMS(QtWidgets.QMainWindow):
         for i in range(len(SQList)):
             words = SQList[i].split(' ')
             for j in range(len(words)):
-                if 'NULL' not in words[j] and 'PRIMARY' not in words[j] and 'KEY' not in words[j] and 'NOT' not in words[j]:
+                if 'NULL' not in words[j] and 'PRIMARY' not in words[j] and 'KEY' not in words[j] and 'NOT' not in \
+                        words[j]:
                     words[j] = words[j].lower()
             SQList[i] = ' '.join(words)
         SQLlist = [x + ';' for x in SQList]
@@ -62,7 +63,7 @@ class Ui_miniDBMS(QtWidgets.QMainWindow):
             else:
                 self.setDataFrame(result[1])
                 return
-        resultData = pd.DataFrame({'操作结果': resulttype, '提示':resultmessage})
+        resultData = pd.DataFrame({'操作结果': resulttype, '提示': resultmessage})
         self.setDataFrame(resultData)
         self.setupData()
 
