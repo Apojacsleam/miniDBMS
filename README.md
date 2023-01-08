@@ -1,0 +1,2 @@
+# miniDBMS
+ 使用Python和Pandas库实现的miniDBMS及前端界面，ECUST数据库新技术实践
