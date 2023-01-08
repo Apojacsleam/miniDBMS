@@ -1,0 +1,3900 @@
+[Time]			2023-01-07 19:58:40
+[User]			root1
+[Operation]		System login.
+[Result]		Operation failure.登录失败！没有该用户！
+
+[Time]			2023-01-07 19:58:43
+[User]			root1
+[Operation]		System login.
+[Result]		Operation failure.登录失败！没有该用户！
+
+[Time]			2023-01-07 19:58:51
+[User]			root1
+[Operation]		System login.
+[Result]		Operation failure.登录失败！没有该用户！
+
+[Time]			2023-01-07 20:00:09
+[User]			root
+[Operation]		System login.
+[Result]		Operation failure.登录失败！密码错误！
+
+[Time]			2023-01-07 20:01:46
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:13:01
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:13:39
+[User]			root
+[Operation]		System login.
+[Result]		Operation failure.登录失败！密码错误！
+
+[Time]			2023-01-07 20:13:47
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:15:11
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:22:32
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:24:00
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:25:03
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:26:14
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:26:27
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:26:42
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:27:04
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:27:30
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:29:21
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:29:41
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:39:05
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:40:37
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:41:25
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:41:55
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:42:12
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:45:53
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:46:49
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 20:47:19
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:53:00
+[User]			root
+[Operation]		help table student;
+[Result]		Successful operation.
+
+[Time]			2023-01-07 20:53:35
+[User]			root
+[Operation]		help table students;
+[Result]		Operation failure.数据表不存在
+
+[Time]			2023-01-07 20:54:03
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:55:36
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:57:24
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:58:05
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 20:58:16
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:59:15
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 20:59:23
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:00:35
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:16:30
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:16:58
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:17:14
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:17:47
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:18:08
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:19:37
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:20:24
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 21:20:35
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:20:57
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:22:42
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 21:25:32
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 21:25:32
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 21:39:08
+[User]			root
+[Operation]		insert into student ('studentno', 'studentname', 'grade') values ('s1902529', '张三', '2019');
+[Result]		Operation failure.studentno IS NOT NULL
+
+[Time]			2023-01-07 21:43:36
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1902529', '张三', 2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		 insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Operation failure.SQL语句格式错误：INSERT
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2133926', '王五', 2021);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1910810', '张麻子', 1919);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1920426', '黄老爷', 1924);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c001', '数据库原理', 3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c002', '随机过程', 2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c003', '体育', 1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c004', '高等数学', 4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c001', 61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c001', 77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c001', 89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c001', 65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c001', 59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c002', 79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c002', 78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c002', 77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c003', 38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c003', 94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c003', 54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c004', 70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c004', 39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c004', 86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c004', 37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c004', 61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 21:44:21
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:44:54
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:45:32
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:45:32
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 21:45:32
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 21:45:42
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1902529', '张三', 2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2133926', '王五', 2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1910810', '张麻子', 1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1920426', '黄老爷', 1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c001', '数据库原理', 3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c002', '随机过程', 2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c003', '体育', 1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c004', '高等数学', 4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c001', 61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c001', 77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c001', 89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c001', 65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c001', 59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c002', 79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c002', 78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c002', 77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c003', 38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c003', 94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c003', 54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c004', 70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c004', 39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c004', 86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c004', 37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c004', 61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 19:58:40
+[User]			root1
+[Operation]		System login.
+[Result]		Operation failure.登录失败！没有该用户！
+
+[Time]			2023-01-07 19:58:43
+[User]			root1
+[Operation]		System login.
+[Result]		Operation failure.登录失败！没有该用户！
+
+[Time]			2023-01-07 19:58:51
+[User]			root1
+[Operation]		System login.
+[Result]		Operation failure.登录失败！没有该用户！
+
+[Time]			2023-01-07 20:00:09
+[User]			root
+[Operation]		System login.
+[Result]		Operation failure.登录失败！密码错误！
+
+[Time]			2023-01-07 20:01:46
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:13:01
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:13:39
+[User]			root
+[Operation]		System login.
+[Result]		Operation failure.登录失败！密码错误！
+
+[Time]			2023-01-07 20:13:47
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:15:11
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:22:32
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:24:00
+[User]			root
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-07 20:25:03
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:26:14
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:26:27
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:26:42
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:27:04
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:27:30
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT null, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:29:21
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:29:41
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:39:05
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:40:37
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:41:25
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:41:55
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int, );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:42:12
+[User]			root
+[Operation]		create table student( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.SQL语句格式错误：CREATE TABLE
+
+[Time]			2023-01-07 20:45:53
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:46:49
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 20:47:19
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:53:00
+[User]			root
+[Operation]		help table student;
+[Result]		Successful operation.
+
+[Time]			2023-01-07 20:53:35
+[User]			root
+[Operation]		help table students;
+[Result]		Operation failure.数据表不存在
+
+[Time]			2023-01-07 20:54:03
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:55:36
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:57:24
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:58:05
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 20:58:16
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 20:59:15
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 20:59:23
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:00:35
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:16:30
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:16:58
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:17:14
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:17:47
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.操作未成功，原因：string index out of range
+
+[Time]			2023-01-07 21:18:08
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:19:37
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:20:24
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Operation failure.表格：student已经存在
+
+[Time]			2023-01-07 21:20:35
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:20:57
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:22:42
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 21:25:32
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 21:25:32
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 21:39:08
+[User]			root
+[Operation]		insert into student ('studentno', 'studentname', 'grade') values ('s1902529', '张三', '2019');
+[Result]		Operation failure.studentno IS NOT NULL
+
+[Time]			2023-01-07 21:43:36
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1902529', '张三', 2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		 insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Operation failure.SQL语句格式错误：INSERT
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2133926', '王五', 2021);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1910810', '张麻子', 1919);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1920426', '黄老爷', 1924);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c001', '数据库原理', 3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c002', '随机过程', 2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c003', '体育', 1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c004', '高等数学', 4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c001', 61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c001', 77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c001', 89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c001', 65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c001', 59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 21:43:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c002', 79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c002', 78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c002', 77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c003', 38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c003', 94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c003', 54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c004', 70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c004', 39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c004', 86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c004', 37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 21:43:44
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c004', 61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 21:44:21
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:44:54
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:45:32
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 21:45:32
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 21:45:32
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 21:45:42
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1902529', '张三', 2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2133926', '王五', 2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1910810', '张麻子', 1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1920426', '黄老爷', 1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c001', '数据库原理', 3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c002', '随机过程', 2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c003', '体育', 1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c004', '高等数学', 4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c001', 61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c001', 77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c001', 89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c001', 65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c001', 59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c002', 79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c002', 78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c002', 77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c002', 51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c003', 38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c003', 90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c003', 94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c003', 54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c004', 70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c004', 39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c004', 86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c004', 37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 21:47:23
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c004', 61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1902529', '张三', 2019);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2002527', '李四', 2020);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s2133926', '王五', 2021);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1910810', '张麻子', 1919);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1920426', '黄老爷', 1924);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c001', '数据库原理', 3);
+[Result]		Operation failure.courseno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c002', '随机过程', 2);
+[Result]		Operation failure.courseno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c003', '体育', 1);
+[Result]		Operation failure.courseno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values ('c004', '高等数学', 4);
+[Result]		Operation failure.courseno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c001', 61);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c001', 77);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c001', 89);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c001', 65);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c001', 59);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c002', 51);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c002', 79);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c002', 78);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c002', 77);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c002', 51);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c003', 38);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c003', 90);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c003', 90);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c003', 94);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c003', 54);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1902529', 'c004', 70);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2002527', 'c004', 39);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s2133926', 'c004', 86);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1910810', 'c004', 37);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:50:12
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values ('s1920426', 'c004', 61);
+[Result]		Operation failure.studentno HAS REPEATED
+
+[Time]			2023-01-07 21:53:29
+[User]			root
+[Operation]		update student set studentname = '刘浩然' where studentname = '李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 21:56:27
+[User]			root
+[Operation]		update student set studentname='刘浩然' where grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:00:52
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:00:52
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:00:52
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:01:00
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529, 张三, 2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527, 李四, 2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926, 王五, 2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810, 张麻子, 1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426, 黄老爷, 1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001, 数据库原理, 3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002, 随机过程, 2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003, 体育, 1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004, 高等数学, 4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529, c001, 61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527, c001, 77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926, c001, 89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810, c001, 65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426, c001, 59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529, c002, 51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527, c002, 79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926, c002, 78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810, c002, 77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426, c002, 51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529, c003, 38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527, c003, 90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926, c003, 90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810, c003, 94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426, c003, 54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529, c004, 70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527, c004, 39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926, c004, 86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810, c004, 37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:01:29
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426, c004, 61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:01:59
+[User]			root
+[Operation]		update student set studentname = '刘浩然' where studentname = '李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:03:58
+[User]			root
+[Operation]		update student set studentname='刘浩然' where studentname='李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:04:21
+[User]			root
+[Operation]		update student set studentname='刘浩然' where student.grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:05:43
+[User]			root
+[Operation]		update student set studentname='刘浩然' where student.grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:05:49
+[User]			root
+[Operation]		update student set studentname='刘浩然' where student.grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:05:50
+[User]			root
+[Operation]		update student set studentname='刘浩然' where student.grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:06:28
+[User]			root
+[Operation]		update student set studentname='刘浩然' where student.grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:10:08
+[User]			root
+[Operation]		update student set studentname = '刘浩然' where studentname = '李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:10:31
+[User]			root
+[Operation]		update student set studentname='刘浩然' where studentname='李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:10:41
+[User]			root
+[Operation]		update student set studentname='刘浩然' where grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:11:59
+[User]			root
+[Operation]		update student set studentname = '刘浩然' where studentname = '李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:12:10
+[User]			root
+[Operation]		update student set studentname='刘浩然' where grade=2020;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:20:13
+[User]			root
+[Operation]		select * from score;
+[Result]		Successful operation.
+
+[Time]			2023-01-07 22:22:44
+[User]			root
+[Operation]		select * from score;
+[Result]		Successful operation.
+
+[Time]			2023-01-07 22:23:26
+[User]			root
+[Operation]		select * from score;
+[Result]		Successful operation.
+
+[Time]			2023-01-07 22:32:32
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:32:32
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:32:32
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:32:39
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values ('s1902529','张三',2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:33:26
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:33:26
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:33:26
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:33:31
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:33:48
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:36:03
+[User]			root
+[Operation]		update student set studentname='刘浩然' where studentname='李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Operation failure.不存在student表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Operation failure.不存在student表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Operation failure.不存在student表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Operation failure.不存在student表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Operation failure.不存在student表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Operation failure.不存在course表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Operation failure.不存在course表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Operation failure.不存在course表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Operation failure.不存在course表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:25
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Operation failure.不存在score表
+
+[Time]			2023-01-07 22:38:36
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:38:36
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:38:36
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:38:42
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:38:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:38:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:38:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:38:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:38:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:38:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:38:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:39:55
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:42:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:44:56
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:44:57
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:46:52
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:48:02
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:49:01
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-07 22:50:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-08 10:12:21
+[User]			root
+[Operation]		update student set studentname='刘浩然' where studentname='李四';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:12:36
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:16:06
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:16:07
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:16:07
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:16:07
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:16:07
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:16:07
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:16:41
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:17:43
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:19:16
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:19:16
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:19:31
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:20:27
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:20:48
+[User]			root
+[Operation]		delete from score where score=61;
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:21:02
+[User]			root
+[Operation]		delete from score where score='61';
+[Result]		Successful operation.修改成功
+
+[Time]			2023-01-08 10:22:40
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.score;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:22:40
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.score;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:45:51
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:48:52
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:48:53
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:49:31
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno ;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:50:10
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno and score.score<'60';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:52:13
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or score.score<'60';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:53:09
+[User]			root
+[Operation]		select studentname,coursename,score from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or student.grade+score.score<'60';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:53:30
+[User]			root
+[Operation]		select studentname,coursename,score,grade from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or student.grade+score.score<'60';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:53:45
+[User]			root
+[Operation]		select studentname,coursename,score,grade from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or (student.grade+score.score)<'60';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:53:45
+[User]			root
+[Operation]		select studentname,coursename,score,grade from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or (student.grade+score.score)<'60';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:53:57
+[User]			root
+[Operation]		select studentname,coursename,score,grade from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or (student.grade+score.score)>'60';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:54:35
+[User]			root
+[Operation]		select studentname,coursename,score,grade from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or (student.grade+score.score)>'1000';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:54:53
+[User]			root
+[Operation]		select studentname,coursename,score,grade from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno or (student.grade+score.score)>'2016';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:55:18
+[User]			root
+[Operation]		select studentname,coursename,score,grade from student,course,score where student.studentno=score.studentno and course.courseno=score.courseno and (student.grade+score.score)>'2016';
+[Result]		Successful operation.
+
+[Time]			2023-01-08 10:58:10
+[User]			root
+[Operation]		rename table student as students;
+[Result]		Successful operation.成功重命名 表student为students
+
+[Time]			2023-01-08 11:00:19
+[User]			root
+[Operation]		drop table students;
+[Result]		Successful operation.成功删除表格：students
+
+[Time]			2023-01-08 11:00:35
+[User]			root
+[Operation]		drop table students;
+[Result]		Operation failure.表格：students不存在
+
+[Time]			2023-01-08 11:00:35
+[User]			root
+[Operation]		drop table course;
+[Result]		Successful operation.成功删除表格：course
+
+[Time]			2023-01-08 11:00:35
+[User]			root
+[Operation]		drop table score;
+[Result]		Successful operation.成功删除表格：score
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-08 11:01:03
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-08 11:01:20
+[User]			root
+[Operation]		drop table students;
+[Result]		Operation failure.表格：students不存在
+
+[Time]			2023-01-08 11:01:20
+[User]			root
+[Operation]		drop table course;
+[Result]		Successful operation.成功删除表格：course
+
+[Time]			2023-01-08 11:01:20
+[User]			root
+[Operation]		drop table score;
+[Result]		Successful operation.成功删除表格：score
+
+[Time]			2023-01-08 11:01:34
+[User]			root
+[Operation]		drop table student;
+[Result]		Successful operation.成功删除表格：student
+
+[Time]			2023-01-08 11:01:34
+[User]			root
+[Operation]		drop table course;
+[Result]		Operation failure.表格：course不存在
+
+[Time]			2023-01-08 11:01:34
+[User]			root
+[Operation]		drop table score;
+[Result]		Operation failure.表格：score不存在
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-08 11:01:43
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-08 11:03:15
+[User]			root
+[Operation]		drop table students;
+[Result]		Successful operation.成功删除表格：students
+
+[Time]			2023-01-08 11:03:15
+[User]			root
+[Operation]		drop table course;
+[Result]		Successful operation.成功删除表格：course
+
+[Time]			2023-01-08 11:03:15
+[User]			root
+[Operation]		drop table score;
+[Result]		Successful operation.成功删除表格：score
+
+[Time]			2023-01-08 11:04:20
+[User]			root
+[Operation]		create user admin with password admin;
+[Result]		Successful operation.成功添加用户！
+
+[Time]			2023-01-08 11:08:07
+[User]			root
+[Operation]		grant select on students to admin;
+[Result]		Successful operation.用户权限授予成功
+
+[Time]			2023-01-08 11:09:02
+[User]			root
+[Operation]		revoke select on students from admin;
+[Result]		Successful operation.修改权限成功
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		create table student ( studentno char(8) PRIMARY KEY NOT NULL, studentname char(10), grade int );
+[Result]		Successful operation.成功创建表格：student
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		create table course ( courseno char(4) PRIMARY KEY NOT NULL, coursename char(20), credit int );
+[Result]		Successful operation.成功创建表格：course
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		create table score ( studentno char(8) PRIMARY KEY NOT NULL, courseno char(4) PRIMARY KEY NOT NULL, score int NOT NULL, );
+[Result]		Successful operation.成功创建表格：score
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1902529,张三,2019);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2002527,李四,2020);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s2133926,王五,2021);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1910810,张麻子,1919);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into student (studentno,studentname,grade) values (s1920426,黄老爷,1924);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c001,数据库原理,3);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c002,随机过程,2);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c003,体育,1);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into course (courseno,coursename,credit) values (c004,高等数学,4);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:11:33
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c001,61);
+[Result]		Successful operation.成功插入表格，共1项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c001,77);
+[Result]		Successful operation.成功插入表格，共2项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c001,89);
+[Result]		Successful operation.成功插入表格，共3项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c001,65);
+[Result]		Successful operation.成功插入表格，共4项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c001,59);
+[Result]		Successful operation.成功插入表格，共5项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c002,51);
+[Result]		Successful operation.成功插入表格，共6项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c002,79);
+[Result]		Successful operation.成功插入表格，共7项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c002,78);
+[Result]		Successful operation.成功插入表格，共8项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c002,77);
+[Result]		Successful operation.成功插入表格，共9项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c002,51);
+[Result]		Successful operation.成功插入表格，共10项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c003,38);
+[Result]		Successful operation.成功插入表格，共11项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c003,90);
+[Result]		Successful operation.成功插入表格，共12项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c003,90);
+[Result]		Successful operation.成功插入表格，共13项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c003,94);
+[Result]		Successful operation.成功插入表格，共14项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c003,54);
+[Result]		Successful operation.成功插入表格，共15项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1902529,c004,70);
+[Result]		Successful operation.成功插入表格，共16项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2002527,c004,39);
+[Result]		Successful operation.成功插入表格，共17项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s2133926,c004,86);
+[Result]		Successful operation.成功插入表格，共18项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1910810,c004,37);
+[Result]		Successful operation.成功插入表格，共19项
+
+[Time]			2023-01-08 11:11:34
+[User]			root
+[Operation]		insert into score (studentno,courseno,score) values (s1920426,c004,61);
+[Result]		Successful operation.成功插入表格，共20项
+
+[Time]			2023-01-08 11:11:46
+[User]			root
+[Operation]		rename table student as students;
+[Result]		Successful operation.成功重命名 表student为students
+
+[Time]			2023-01-08 11:11:53
+[User]			root
+[Operation]		help table students;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 11:11:57
+[User]			root
+[Operation]		help table course;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 11:12:02
+[User]			root
+[Operation]		help table score;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 11:12:21
+[User]			root
+[Operation]		help table students;
+[Result]		Successful operation.
+
+[Time]			2023-01-08 11:14:45
+[User]			admin
+[Operation]		System login.
+[Result]		Successful operation.登录成功！
+
+[Time]			2023-01-08 11:15:18
+[User]			admin
+[Operation]		drop table course;
+[Result]		Successful operation.成功删除表格：course
+
+[Time]			2023-01-08 11:15:18
+[User]			admin
+[Operation]		drop table score;
+[Result]		Successful operation.成功删除表格：score
+
+[Time]			2023-01-08 11:15:18
+[User]			admin
+[Operation]		drop table students;
+[Result]		Successful operation.成功删除表格：students
+

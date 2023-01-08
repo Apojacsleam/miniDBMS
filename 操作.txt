@@ -1,0 +1,86 @@
+CREATE TABLE student (
+     studentNo CHAR(8) PRIMARY KEY NOT NULL,
+     studentName CHAR(10),
+     grade INT
+);
+CREATE TABLE course (
+     courseNo CHAR(4) PRIMARY KEY NOT NULL,
+     courseName CHAR(20),
+     credit INT
+);
+CREATE TABLE score (
+     studentNo CHAR(8) PRIMARY KEY NOT NULL,
+     courseNo CHAR(4) PRIMARY KEY NOT NULL,
+     score INT NOT NULL,
+);
+INSERT INTO student (studentno,studentname,grade) VALUES (S1902529,张三,2019);
+INSERT INTO student (studentno,studentname,grade) VALUES (S2002527,李四,2020);
+INSERT INTO student (studentno,studentname,grade) VALUES (S2133926,王五,2021);
+INSERT INTO student (studentno,studentname,grade) VALUES (S1910810,张麻子,1919);
+INSERT INTO student (studentno,studentname,grade) VALUES (S1920426,黄老爷,1924);
+INSERT INTO course (courseno,coursename,credit) VALUES (C001,数据库原理,3);
+INSERT INTO course (courseno,coursename,credit) VALUES (C002,随机过程,2);
+INSERT INTO course (courseno,coursename,credit) VALUES (C003,体育,1);
+INSERT INTO course (courseno,coursename,credit) VALUES (C004,高等数学,4);
+INSERT INTO score (studentno,courseno,score) VALUES (S1902529,C001,61);
+INSERT INTO score (studentno,courseno,score) VALUES (S2002527,C001,77);
+INSERT INTO score (studentno,courseno,score) VALUES (S2133926,C001,89);
+INSERT INTO score (studentno,courseno,score) VALUES (S1910810,C001,65);
+INSERT INTO score (studentno,courseno,score) VALUES (S1920426,C001,59);
+INSERT INTO score (studentno,courseno,score) VALUES (S1902529,C002,51);
+INSERT INTO score (studentno,courseno,score) VALUES (S2002527,C002,79);
+INSERT INTO score (studentno,courseno,score) VALUES (S2133926,C002,78);
+INSERT INTO score (studentno,courseno,score) VALUES (S1910810,C002,77);
+INSERT INTO score (studentno,courseno,score) VALUES (S1920426,C002,51);
+INSERT INTO score (studentno,courseno,score) VALUES (S1902529,C003,38);
+INSERT INTO score (studentno,courseno,score) VALUES (S2002527,C003,90);
+INSERT INTO score (studentno,courseno,score) VALUES (S2133926,C003,90);
+INSERT INTO score (studentno,courseno,score) VALUES (S1910810,C003,94);
+INSERT INTO score (studentno,courseno,score) VALUES (S1920426,C003,54);
+INSERT INTO score (studentno,courseno,score) VALUES (S1902529,C004,70);
+INSERT INTO score (studentno,courseno,score) VALUES (S2002527,C004,39);
+INSERT INTO score (studentno,courseno,score) VALUES (S2133926,C004,86);
+INSERT INTO score (studentno,courseno,score) VALUES (S1910810,C004,37);
+INSERT INTO score (studentno,courseno,score) VALUES (S1920426,C004,61);
+
+
+
+UPDATE student
+SET studentname='刘浩然'
+WHERE studentname='李四';
+
+DELETE FROM score
+WHERE score=61;
+
+SELECT *
+FROM score;
+
+SELECT studentname,coursename,score
+FROM student,course,score
+WHERE student.studentno=score.studentno AND course.courseno=score.courseno;
+
+SELECT studentname,coursename,score
+FROM student,course,score
+WHERE student.studentno=score.studentno AND course.courseno=score.courseno AND score.score<'60';
+
+SELECT studentname,coursename,score,grade
+FROM student,course,score
+WHERE student.studentno=score.studentno AND course.courseno=score.courseno AND (student.grade+score.score)>'2016';
+
+RENAME TABLE student AS students;
+
+CREATE USER admin WITH PASSWORD admin;
+
+GRANT SELECT ON students TO admin;
+
+REVOKE SELECT ON students FROM admin;
+
+HELP TABLE students;
+
+HELP TABLE course;
+
+HELP TABLE score;
+
+DROP TABLE students;
+DROP TABLE course;
+DROP TABLE score;
